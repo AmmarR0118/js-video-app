@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(84, 186, 250);
+    width: calc(100vw - 17px);
+    height: fit-content;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    color: rgb(98, 74, 238);
+    margin: 40px;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+.body {
+    width: 85%;
+    padding: 20px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    width: 65%;
+    padding: 0px 12px;
+}
+video {
+    box-sizing: border-box;
+    width: 100%;
+}
+.views {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    color: #333;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 12px;
+}
+.far {
+    margin: 0px 0px 0px 12px;
+    font-size: 22px;
+}
+.tit-des {
+    margin: 10px 0px;
+    font-size: 24px;
+}
+.title-vid {
+    margin: 25px 0px 16px 0px;
+}
+.desc {
+    font-size: 16px;
+    color: #333;
+}
+.sidebar {
+    width: 30%;
+    border-left: 1px solid #aaa;
+    padding: 0px 12px;
+    /* For removing space between divs */
+    font-size: 0;
+}
+.wrapper {
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+.wrapper video {
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+.wrapper div {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+}
